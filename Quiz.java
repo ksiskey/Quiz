@@ -24,7 +24,7 @@ public class Quiz {
         int score = 0;
 
 
-        //Task 2: Check each answer - For each correct answer, add 5 points to the score. 
+        //For each correct answer, add 5 points to the score. 
         if (q1.equalsIgnoreCase("c")) {
             score += 5;
         }
@@ -43,7 +43,7 @@ public class Quiz {
 
         System.out.println("\nYour final score is: " + score + "/20");
 
-        //Task 3: print a message depending on the score
+        //print a message depending on the score
 
         if (score >= 15) {
             System.out.println("Wow, you know your stuff!");
